@@ -5,5 +5,6 @@ node 'puppetclient' {
     include media::services
     include media::nfsclient
     include media::docker
+    #include gcloud::auth
 
 }
